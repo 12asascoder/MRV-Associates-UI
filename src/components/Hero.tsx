@@ -4,6 +4,8 @@ import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { useBriefing } from '../hooks/useBriefing'
 
+const MotionLink = motion.create(Link)
+
 const clients = [
   'Emirates NBD',
   'First Abu Dhabi Bank',
@@ -83,7 +85,7 @@ export function Hero() {
         <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
           <motion.button
             type="button"
-            className="btn btn-blue min-w-[280px]"
+            className="btn btn-glass btn-glass-blue min-w-[280px]"
             onClick={() => openBriefing({ domain: 'Corporate Tax & QFZP Regime' })}
             initial={reduced ? false : { opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
@@ -94,16 +96,16 @@ export function Hero() {
               →
             </span>
           </motion.button>
-          <motion.div
+          <MotionLink
+            to="/tax-brief"
+            className="btn btn-glass btn-glass-light min-w-[280px]"
             initial={reduced ? false : { opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.74 }}
           >
-            <Link to="/tax-brief" className="btn btn-white min-w-[280px]">
-              <Download className="h-4 w-4" aria-hidden="true" />
-              Download UAE 2025 Tax Brief
-            </Link>
-          </motion.div>
+            <Download className="h-4 w-4" aria-hidden="true" />
+            Download UAE 2025 Tax Brief
+          </MotionLink>
         </div>
       </div>
 
