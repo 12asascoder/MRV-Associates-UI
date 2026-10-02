@@ -25,7 +25,7 @@ export function Transactions() {
             Strategic Transformations in Practice
           </h2>
           <p className="mt-4 max-w-2xl text-base text-slate">
-            How MRV Associates engineers defensive resilience and fiscal efficiency for industry leaders.
+            How MNV Associates engineers defensive resilience and fiscal efficiency for industry leaders.
           </p>
         </Reveal>
         <div className="mt-10 grid gap-5 lg:grid-cols-3">

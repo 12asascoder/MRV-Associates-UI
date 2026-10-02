@@ -24,7 +24,7 @@ export function ServicePage() {
 
   return (
     <>
-      <Meta title={`${area.title} | MRV Associates`} description={area.summary} />
+      <Meta title={`${area.title} | MNV Associates`} description={area.summary} />
       <section className="border-b border-line bg-mist">
         <Shell className="py-16 lg:py-20">
           <p className="eyebrow">Practice Area</p>

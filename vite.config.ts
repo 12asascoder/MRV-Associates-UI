@@ -136,7 +136,7 @@ function intakePlugin(): Plugin {
       }
     }
 
-    const reference = `MRV-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}-${randomBytes(3).toString('hex').toUpperCase()}`
+    const reference = `MNV-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}-${randomBytes(3).toString('hex').toUpperCase()}`
     const record = {
       reference,
       kind,
@@ -166,7 +166,7 @@ function intakePlugin(): Plugin {
   }
 
   return {
-    name: 'mrv-intake',
+    name: 'MNV-intake',
     configureServer(server) {
       server.middlewares.use('/api/intake', (req, res) => {
         void handle(req, res)

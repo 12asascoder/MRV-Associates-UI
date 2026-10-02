@@ -220,7 +220,7 @@ export function Calculator() {
                   <dd className="tabular">{formatAed(model.mainlandTax)}</dd>
                 </div>
                 <div className="flex items-start justify-between gap-4">
-                  <dt className="text-white/60">MRV QFZP Optimization Relief:</dt>
+                  <dt className="text-white/60">MNV QFZP Optimization Relief:</dt>
                   <dd className="text-right text-[#7dcea5] tabular">+{formatAed(model.relief)} saved</dd>
                 </div>
                 <div className="flex items-start justify-between gap-4">
@@ -233,7 +233,7 @@ export function Calculator() {
                 className="btn btn-blue mt-6 w-full"
                 onClick={() => openBriefing({ domain: 'Corporate Tax & QFZP Regime', scope })}
               >
-                Structure This Model with MRV
+                Structure This Model with MNV
                 <span className="arrow" aria-hidden="true">
                   →
                 </span>

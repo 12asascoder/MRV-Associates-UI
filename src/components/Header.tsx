@@ -111,9 +111,9 @@ export function Header() {
       </div>
 
       <div className="mx-auto flex max-w-[1160px] items-center justify-between gap-6 px-6 py-3.5 lg:px-8">
-        <Link to="/" className="shrink-0" aria-label="MRV Associates home">
+        <Link to="/" className="shrink-0" aria-label="MNV Associates home">
           <span className="flex items-center gap-2.5 text-[15px] tracking-[0.16em] text-navy">
-            <span className="font-bold">MRV</span>
+            <span className="font-bold">MNV</span>
             <span className="h-3.5 w-px bg-navy/25" aria-hidden="true" />
             <span className="font-medium">ASSOCIATES</span>
           </span>

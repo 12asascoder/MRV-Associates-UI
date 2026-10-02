@@ -25,7 +25,7 @@ export function ArticlePage({ id }: { id: string }) {
   if (!article) return null
   return (
     <>
-      <Meta title={`${article.title} | MRV Associates`} description={article.lede} />
+      <Meta title={`${article.title} | MNV Associates`} description={article.lede} />
       <Frame eyebrow={article.eyebrow} title={article.title} lede={article.lede}>
         <article className="space-y-6 text-[15px] leading-7 text-[#314158]">
           {article.blocks.map((block, index) => {
@@ -70,7 +70,7 @@ export function FormPageView({ id }: { id: string }) {
   if (!page) return null
   return (
     <>
-      <Meta title={`${page.title} | MRV Associates`} description={page.lede} />
+      <Meta title={`${page.title} | MNV Associates`} description={page.lede} />
       <Frame eyebrow={page.eyebrow} title={page.title} lede={page.lede}>
         <div className="space-y-4 text-[15px] leading-7 text-[#314158]">
           {page.intro.map((paragraph) => (
@@ -99,7 +99,7 @@ export function LegalPage() {
 export function NotFound() {
   return (
     <Shell className="py-24">
-      <Meta title="Page not found | MRV Associates" description="This address is not part of the MRV Associates site." />
+      <Meta title="Page not found | MNV Associates" description="This address is not part of the MNV Associates site." />
       <p className="eyebrow">404</p>
       <h1 className="mt-4 font-serif text-5xl font-medium">This page is not on the site.</h1>
       <Link to="/" className="mt-6 inline-block font-semibold text-blue">

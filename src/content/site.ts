@@ -326,7 +326,7 @@ export const articles: Record<string, Article> = {
     path: '/about',
     eyebrow: 'Institutional',
     title: 'About our partners',
-    lede: 'MRV Associates is a UAE chartered accountancy and multidisciplinary tax advisory practice. This page stays inside the description the firm publishes. It does not add partner biographies that the firm has not named.',
+    lede: 'MNV Associates is a UAE chartered accountancy and multidisciplinary tax advisory practice. This page stays inside the description the firm publishes. It does not add partner biographies that the firm has not named.',
     blocks: [
       {
         type: 'p',
@@ -446,7 +446,7 @@ export const articles: Record<string, Article> = {
     path: '/legal/aml',
     eyebrow: 'Legal',
     title: 'Anti-money laundering',
-    lede: 'MRV Associates describes its practice as subject to UAE anti-money laundering obligations. This page is a public statement of approach. It is not a compliance certificate.',
+    lede: 'MNV Associates describes its practice as subject to UAE anti-money laundering obligations. This page is a public statement of approach. It is not a compliance certificate.',
     blocks: [
       {
         type: 'p',
@@ -582,7 +582,7 @@ export const formPages: Record<string, FormPage> = {
     kind: 'whistleblower',
     eyebrow: 'Governance',
     title: 'Whistleblower governance',
-    lede: 'Use this page to record a concern about conduct connected to MRV Associates. The report is stored on the website intake endpoint. Submitting it does not notify a regulator.',
+    lede: 'Use this page to record a concern about conduct connected to MNV Associates. The report is stored on the website intake endpoint. Submitting it does not notify a regulator.',
     intro: [
       'You may leave your name blank. Write enough for the concern to be understood. Do not include passwords, identity-document images, or a client’s confidential files.',
       'Where the concern belongs with an authority, contact that authority through the channel it publishes. Official sites are linked from the credentials section and the AML page.',

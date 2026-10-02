@@ -12,8 +12,8 @@ export function Home() {
   return (
     <>
       <Meta
-        title="MRV Associates | Chartered Tax & Corporate Advisory UAE"
-        description="Institutional tax advisory, corporate finance, and an illustrative UAE corporate tax and QFZP simulator from MRV Associates."
+        title="MNV Associates | Chartered Tax & Corporate Advisory UAE"
+        description="Institutional tax advisory, corporate finance, and an illustrative UAE corporate tax and QFZP simulator from MNV Associates."
       />
       <Hero />
       <Metrics />

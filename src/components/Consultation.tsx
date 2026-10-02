@@ -98,7 +98,7 @@ export function Consultation() {
                   Schedule an Executive Tax & Advisory Briefing
                 </h2>
                 <p className="mt-5 text-[15px] leading-7 text-slate">
-                  Engage directly with an MRV Senior Partner. All engagements are protected under strict Non-Disclosure Agreements (NDA) and governed by Dubai International Financial Centre (DIFC) privacy standards.
+                  Engage directly with an MNV Senior Partner. All engagements are protected under strict Non-Disclosure Agreements (NDA) and governed by Dubai International Financial Centre (DIFC) privacy standards.
                 </p>
                 <ul className="mt-6 space-y-3">
                   {highlights.map((item) => (

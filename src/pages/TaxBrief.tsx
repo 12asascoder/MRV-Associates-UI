@@ -7,7 +7,7 @@ export function TaxBrief() {
   return (
     <>
       <Meta
-        title="UAE 2025 Corporate Tax Brief | MRV Associates"
+        title="UAE 2025 Corporate Tax Brief | MNV Associates"
         description="A short briefing note on the UAE corporate tax schedule, qualifying free zone treatment, and the limits of the illustrative simulator."
       />
       <section className="border-b border-line bg-mist">
@@ -19,7 +19,7 @@ export function TaxBrief() {
           <p className="mt-5 max-w-2xl text-base leading-7 text-slate">
             This note summarises rules that are already public. It is not a memorandum, a filing position, or a substitute for the text published by the Federal Tax Authority.
           </p>
-          <a className="btn btn-blue mt-8" href="/briefs/mrv-uae-2025-tax-brief.html" download="MRV-UAE-2025-Corporate-Tax-Brief.html">
+          <a className="btn btn-blue mt-8" href="/briefs/MNV-uae-2025-tax-brief.html" download="MNV-UAE-2025-Corporate-Tax-Brief.html">
             <Download className="h-4 w-4" aria-hidden="true" />
             Download the brief
           </a>
